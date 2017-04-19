@@ -1,9 +1,14 @@
-# api documentation for  [warning (v3.0.0)](https://github.com/BerkeleyTrue/warning)  [![npm package](https://img.shields.io/npm/v/npmdoc-warning.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-warning) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-warning.svg)](https://travis-ci.org/npmdoc/node-npmdoc-warning)
+# npmdoc-warning
+
+#### api documentation for  [warning (v3.0.0)](https://github.com/BerkeleyTrue/warning)  [![npm package](https://img.shields.io/npm/v/npmdoc-warning.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-warning) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-warning.svg)](https://travis-ci.org/npmdoc/node-npmdoc-warning)
+
 #### A mirror of Facebook's Warning
 
-[![NPM](https://nodei.co/npm/warning.png?downloads=true)](https://www.npmjs.com/package/warning)
+[![NPM](https://nodei.co/npm/warning.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/warning)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-warning/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-warning_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-warning/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-warning/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-warning/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-warning/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-warning/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-warning/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Berkeley Martinez",
-        "email": "berkeley@r3dm.com",
         "url": "http://www.freecodecamp.com"
     },
     "browser": "browser.js",
@@ -59,13 +63,11 @@
     "main": "warning.js",
     "maintainers": [
         {
-            "name": "berkeleytrue",
-            "email": "berkeley@r3dm.com"
+            "name": "berkeleytrue"
         }
     ],
     "name": "warning",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/BerkeleyTrue/warning.git"
@@ -76,16 +78,6 @@
     "version": "3.0.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module warning](#apidoc.module.warning)
-
-
-
-# <a name="apidoc.module.warning"></a>[module warning](#apidoc.module.warning)
 
 
 
