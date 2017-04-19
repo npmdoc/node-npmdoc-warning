@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/BerkeleyTrue/warning"
-
-    >warning (v3.0.0)</a>
+    <a href="https://github.com/BerkeleyTrue/warning">warning (v3.0.0)</a>
 </h1>
 <h4>A mirror of Facebook's Warning</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.warning">module warning</a><ol>
 
@@ -87,31 +80,31 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">warning = function (condition, format, args) {
   var len = arguments.length;
-  args = new Array(len &#x3e; 2 ? len - 2 : 0);
-  for (var key = 2; key &#x3c; len; key++) {
+  args = new Array(len &gt; 2 ? len - 2 : 0);
+  for (var key = 2; key &lt; len; key++) {
     args[key - 2] = arguments[key];
   }
   if (format === undefined) {
     throw new Error(
-      &#x27;`warning(condition, format, ...args)` requires a warning &#x27; +
-      &#x27;message argument&#x27;
+      '`warning(condition, format, ...args)` requires a warning ' +
+      'message argument'
     );
   }
 
-  if (format.length &#x3c; 10 || (/^[s\W]*$/).test(format)) {
+  if (format.length &lt; 10 || (/^[s\W]*$/).test(format)) {
     throw new Error(
-      &#x27;The warning format should be able to uniquely identify this &#x27; +
-      &#x27;warning. Please, use a more descriptive format than: &#x27; + format
+      'The warning format should be able to uniquely identify this ' +
+      'warning. Please, use a more descriptive format than: ' + format
     );
   }
 
   if (!condition) {
     var argIndex = 0;
-    var message = &#x27;Warning: &#x27; +
+    var message = 'Warning: ' +
       format.replace(/%s/g, function() {
         return args[argIndex++];
       });
-    if (typeof console !== &#x27;undefined&#x27;) {
+    if (typeof console !== 'undefined') {
       console.error(message);
     }
     try {
@@ -133,3 +126,4 @@
     ]
 </div>
 </div>
+</body></html>
